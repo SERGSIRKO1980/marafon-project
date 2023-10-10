@@ -1,0 +1,294 @@
+.countdown {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .timer-no-2{
+       display: none;
+       }
+  .next-17i88q2 {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 400;
+      letter-spacing: 0.2px;
+    }
+  .countdown-number {
+    padding: 10px;
+    border-radius: 3px;
+    background: #FF8000;
+    display: inline-block;
+  }
+  
+  .countdown-time {
+    padding: 8px;
+    border-radius: 3px;
+    background: #FAAC58;
+    display: inline-block;
+  }
+  
+  .countdown-text {
+    display: block;
+    padding-top: 5px;
+    font-size: 16px;font-weight: 700;
+  }
+  
+    .front-1, .front-2, .front-3, .front-4, .front-5, .front-6, .front-7 {
+      display: block;
+      padding: 12px 42px;
+      border-radius: 12px;
+      font-size: 1.25rem;
+      font-weight: 700;
+      background: #FF8000;
+      color: white;
+      transform: translateY(-6px);
+    }
+    .front-no-1, .front-no-2, .front-no-3, .front-no-4, .front-no-5, .front-no-6, .front-no-7  {
+      display: block;
+      padding: 12px 42px;
+      border-radius: 12px;
+      font-size: 1.25rem;
+      font-weight: 700;
+      background: grey;
+      color: white;
+      transform: translateY(-6px);
+    }
+  
+    .pushable:active .front {
+      transform: translateY(-2px);
+    }
+   .day {
+      margin-bottom: 20px;
+  }
+  
+  h2 {
+      font-size: 20px!important;
+      margin-bottom: 20px!important;
+    margin-top: 15px!important;
+    line-height: 2em;
+  }
+  
+  ul {
+      list-style: none;
+  }
+  
+  li{
+      padding-left: 20px!important;
+    margin-left: 1em!important;
+  }
+  
+  li::before{
+    display: none;
+  }
+       
+  li.mark::marker {
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABGdBTUEAAK/INwWK6QAAAAlwSFlzAAAWJQAAFiUBSVIk8AAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMS42/U4J6AAAAXtJREFUSEvllaFLREEQh68aTFarwWLwf7BYDQaL2WK4coiCCCKimAyKRZADEYRDFBEEixgMahDFYjgwqIjlgqLyc8Z5e29vZp5657tk+GBudna+t7tv7xUAtB03mTduMm/c5J+5Owd2ikDtkX62Q3KyAhQpDFAuHcwDLWiQvL0ARwuyxGbYKwHP1a9GrmB9KJJsj0lysa85ZrqBUgdwvGwFa4Mir0vKI8DhbD35a+6vbXNmY5iG0zoJWpWcla1gc5SGGuskaEXycGMFqwM0ZGsliCUXW1LM+/zxLjnNa80K+Hy8WkKCIPGWf1mhEjVxrsfW8Ruq6xIkCBJGT2b2J6ksmXQwbceTm52FBEHCT1MZB6a6bCPewuqpzTOqqUYC7+CzXs+YsKp4noMEnoThg/f2n+ELHB5Ez1NIkCUJ8O2OBfO9lKZ8rhKGa7jhRGf6JuUu8finEv5T48P0vhnfEc5JNdVI8HQrl01/L35iqR+42qUWtnGMm8wXFD4B+T0yvI1+duYAAAAASUVORK5CYII=");
+  }
+      .blue-text-day-1, .blue-text-day-2, .blue-text-day-3, .blue-text-day-4, .blue-text-day-5, .blue-text-day-6, .blue-text-day-7, .blue-number-day-1, .blue-number-day-2, .blue-number-day-3, .blue-number-day-4, .blue-number-day-5, .blue-number-day-6, .blue-number-day-7 {
+      background-color: #1e81b0;
+         color: white;
+      padding: 5px 10px 5px 10px;
+         font-size: 14px;
+         margin: 0 10px 0 0;
+         border-radius: 5px;
+         line-height: 2em;
+       }
+      .grey-number-day-1, .grey-number-day-2, .grey-number-day-3, .grey-number-day-4, .grey-number-day-5, .grey-number-day-6, .grey-number-day-7  {
+         background-color: grey;
+       color: white;
+      padding: 5px 10px 5px 10px;
+        margin: 0 10px 0 0;
+         font-size: 14px;
+         border-radius: 5px;
+        line-height: 2em;
+       }
+  .orange-text-day-1, .orange-text-day-2, .orange-text-day-3, .orange-text-day-4, .orange-text-day-5, .orange-text-day-6, .orange-text-day-7  {
+       background-color: #FF8000;
+       color: white;
+       padding: 5px 10px 5px 10px;
+       margin: 0 10px 0 0;
+       font-size: 14px;
+       border-radius: 5px;
+        line-height: 2em;
+       }
+  
+  .calendar {
+      margin: 0 auto;
+  }
+  
+  .week {
+      display: flex; width: 305px;
+      justify-content: space-between;
+  }
+  
+  .calendar-day-1, .calendar-day-2, .calendar-day-3, .calendar-day-4, .calendar-day-5, .calendar-day-6, .calendar-day-7 {
+      flex: 1;margin-right: 3px;
+      font-weight: bold;
+    border: 2px solid #ccc;
+    background-color: #FF8000;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+  
+  .dates {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 5px;
+  }
+  
+  .date {
+      flex: 1;
+      text-align: center;
+  }
+  
+  .progress-bar {
+      width: 300px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      background:  grey;
+      height: 25px;
+      position: relative;
+      top: 0;
+      left: 0;
+  }
+  
+  .progress-bar-all {
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #FF8000;
+      height: 25px;
+      position: relative;
+  }
+  
+  .progress-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 11px;
+  }
+       
+  .progress {
+      width: 0;
+      height: 100%;
+      background: linear-gradient(to right, #FF8000 50%, #32CD32 );
+      position: absolute;
+      border-radius: 5px 0 0 5px;
+      top: 0;
+      left: 0;
+      transition: width 1s ease-in-out;
+  }   
+  span.progress-show-no{
+    display: none;
+  }
+    .next-333 {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Убираем стандартный вид флажка */
+  input[type="checkbox"] {
+    appearance: none; /* Убираем стандартное отображение браузера */
+    -webkit-appearance: none; /* Для поддержки веб-кит браузерами (например, Safari) */
+    -moz-appearance: none; /* Для поддержки Firefox */
+  
+    /* Определяем размер флажка */
+    width: 20px;
+    height: 20px;
+    border-radius: 4px; /* Добавляем скругление углов */
+    cursor: pointer; /* Устанавливаем указатель при наведении на флажок */
+  }
+  
+  /* Стили для флажка в состоянии "выбран" */
+  input[type="checkbox"]:checked {
+    background-color: #1e81b0; /* Цвет фона при выборе */
+    border: none; /* Цвет границы при выборе */
+  }
+  
+  /* Скрыть стандартное галочку (квадрат) и заменить на галочку */
+  input[type="checkbox"]::before {
+    content: '🔔'; /* Юникод для галочки */
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height:18px;/* Цвет галочки при выборе */
+    background-color: #1e81b0; /* Фон внутри флажка */
+    font-size: 16px; /* Размер галочки */
+  }
+  
+  /* Скрыть галочку в начальном состоянии */
+  input[type="checkbox"]:not(:checked)::before {
+    content: ''; /* Пустое содержимое, чтобы скрыть галочку */
+  }
+  
+  /* Стили для флажка при наведении */
+  input[type="checkbox"]:hover {
+    background-color: #1e81b0; /* Цвет фона при наведении */
+  } 
+  .hidden {
+      display: none;
+  }
+  
+  #popup-container {
+      position: fixed;
+      bottom: 20px;
+      right: 60px;color: #fff;
+      background-color: #32CD32;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+  }
+  
+  #popup-content {
+      width: 250px;
+      padding: 20px;
+      position: relative;
+  }
+  
+  #popup-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 20px;
+      cursor: pointer;
+      z-index: 1;
+  }
+
+  .pushable{
+    background: #DF7401;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+  }
+.green-text-day-1, .green-text-day-2, .green-text-day-3, .green-text-day-4, .green-text-day-5, .green-text-day-6, .green-text-day-7, .green-number-day-1, .green-number-day-2, .green-number-day-3, .green-number-day-4, .green-number-day-5, .green-number-day-6, .green-number-day-7  {
+       background-color: #32CD32;
+     color: white;
+    padding: 5px 10px 5px 10px;
+       font-size: 14px;
+       margin: 0 10px 0 0;
+       border-radius: 5px;
+  line-height: 2em;
+  } 
+  .front-white-1, .front-white-2, .front-white-3, .front-white-4, .front-white-5, .front-white-6, .front-white-7  {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    border: 1px solid #FF8000;
+    font-size: 1.25rem;
+    font-weight: 700;
+    background: white;
+    color: #FF8000;
+    transform: translateY(-6px);
+  }
+  
+  a.disabled-1, a.disabled-2, a.disabled-3, a.disabled-4, a.disabled-5, a.disabled-6, a.disabled-7 {
+pointer-events: none; /* делаем элемент неактивным для взаимодействия */
+cursor: default; /*  курсор в виде стрелки */
+}
